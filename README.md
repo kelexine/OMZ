@@ -29,4 +29,4 @@ chmod +x install
 
 |Screenshot 1|Screenshot 2|
 |--|--|
-|![img](.images/screen_1.jpg)|![img](.images/screen_2.jpg)|
+|![img](screen_1.jpg)|![img](screen_2.jpg)|
