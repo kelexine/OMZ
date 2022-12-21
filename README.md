@@ -11,10 +11,10 @@ This setup will apply -
 
 ```bash
 # First, clone this repository by typing...
-git clone https://github.com/adi1090x/termux-omz.git
+git clone https://github.com/dextterblog/omz.git
 
 # Change to termux-omz directory
-cd termux-omz
+cd omz
 
 # Make script executable
 chmod +x install
