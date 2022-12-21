@@ -73,7 +73,7 @@ backup_tmux () {
 ## Setup OMZ
 setup_omz () {
 	{ echo ${ORANGE}" [*] Cloning oh-my-zsh framework..."; echo ${CYAN}; }
-	git clone --depth 1 git://github.com/robbyrussell/oh-my-zsh.git $HOME/.oh-my-zsh
+	git clone --depth 1 https://github.com/robbyrussell/oh-my-zsh.git $HOME/.oh-my-zsh
 	{ echo ${ORANGE}" [*] installing tmux..."; echo ${CYAN}; }
 	apt install tmux
 	[[ -d $HOME/.oh-my-zsh ]] && { echo; echo ${GREEN}" [*] Succesfully Cloned!"; echo; } || { echo; echo ${RED}" [!] Error Occured, failed to clone OMZ."; echo; reset_color; exit 1; }
