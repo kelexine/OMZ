@@ -22,6 +22,11 @@ chmod +x install
 # Run install script
 ./install
 
+# For the lazy ones just copy this code and run once
+apt install git && git clone https://github.com/dextterblog/omz.git && cd omz && chmod +x install && ./install
+
+# If you don't like copying and pasting stuffs just run omz.sh
+
 # And Done, oh-my-zsh is successfully installed on your termux.
 ```
 
